@@ -1,0 +1,150 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://M6IJyQlnHcV8nwq:i8d68GAma8rxuIw@localhost:51306/storage/emulated/0/index.html
+Subject: Kalkulator Modern
+Date: Fri, 25 Sep 2026 06:36:56 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--5CBeiKDXuRPd1dQTbuMVk9t91M3aA9a7gwaR0mtf6R----"
+
+
+------MultipartBoundary--5CBeiKDXuRPd1dQTbuMVk9t91M3aA9a7gwaR0mtf6R----
+Content-Type: text/html
+Content-ID: <frame-BF81A1FADBF7F50F2073621147CBA99F@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://M6IJyQlnHcV8nwq:i8d68GAma8rxuIw@localhost:51306/storage/emulated/0/index.html
+
+<!DOCTYPE html><html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-59a7f451-a217-4ec1-b505-e1ee888c263a@mhtml.blink" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Modern</title>
+
+
+</head>
+
+<body>
+
+<div class="calculator">
+
+  <div class="title">Kalkulator</div>
+
+  <div class="display" id="display">0</div>
+
+  <div class="buttons">
+
+    <button class="clear">C</button>
+    <button class="back">⌫</button>
+    <button class="operator">÷</button>
+    <button class="operator">×</button>
+
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button class="operator">−</button>
+
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button class="operator">+</button>
+
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button class="equal">=</button>
+
+    <button>0</button>
+    <button>.</button>
+    <button>(</button>
+    <button>)</button>
+
+  </div>
+</div>
+
+
+<!-- POPUP PREMIUM -->
+
+<div class="overlay" id="overlay">
+
+  <div class="premium-box">
+
+    <h2>Premium Required</h2>
+
+    <p>
+      Untuk melihat hasil kalkulator,
+      pilih salah satu paket Premium.
+    </p>
+
+    <button class="plan">
+      Rp15.000 / Minggu
+    </button>
+
+    <button class="plan">
+      Rp120.000 / Bulan
+    </button>
+
+    <button class="close">
+      Batal
+    </button>
+
+    <div id="message"></div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--5CBeiKDXuRPd1dQTbuMVk9t91M3aA9a7gwaR0mtf6R----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-59a7f451-a217-4ec1-b505-e1ee888c263a@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; font-family: Arial, sans-serif; -webkit-tap-highlight-color: transparent; }
+
+body { margin: 0px; min-height: 100vh; display: flex; justify-content: center; align-items: center; background: linear-gradient(145deg, rgb(17, 24, 39), rgb(30, 41, 59)); }
+
+.calculator { width: min(360px, 92vw); padding: 20px; border-radius: 28px; background: rgb(23, 32, 51); box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 50px; }
+
+.title { color: rgb(148, 163, 184); font-size: 13px; margin: 0px 4px 10px; letter-spacing: 1px; text-transform: uppercase; }
+
+.display { width: 100%; height: 95px; padding: 20px 16px; margin-bottom: 16px; border-radius: 20px; background: rgb(11, 18, 32); color: rgb(248, 250, 252); font-size: 36px; font-weight: 600; text-align: right; overflow: hidden; white-space: nowrap; display: flex; align-items: center; justify-content: flex-end; }
+
+.buttons { display: grid; grid-template-columns: repeat(4, 1fr); gap: 11px; }
+
+button { height: 64px; border: 0px; border-radius: 18px; background: rgb(38, 50, 71); color: rgb(248, 250, 252); font-size: 21px; font-weight: 600; cursor: pointer; box-shadow: rgba(0, 0, 0, 0.18) 0px -2px 0px inset; transition: transform 0.08s, filter 0.08s; }
+
+button:active { transform: scale(0.94); filter: brightness(1.15); }
+
+.operator { background: rgb(51, 65, 85); color: rgb(103, 232, 249); }
+
+.equal { background: rgb(6, 182, 212); color: white; }
+
+.clear { background: rgb(239, 68, 68); color: white; }
+
+.back { background: rgb(71, 85, 105); }
+
+.overlay { display: none; position: fixed; inset: 0px; background: rgba(2, 6, 23, 0.78); justify-content: center; align-items: center; z-index: 999; padding: 20px; }
+
+.premium-box { width: min(330px, 92vw); padding: 27px; background: rgb(23, 32, 51); color: white; border: 1px solid rgb(51, 65, 85); border-radius: 25px; text-align: center; box-shadow: rgba(0, 0, 0, 0.55) 0px 20px 60px; animation: 0.18s ease 0s 1 normal none running muncul; }
+
+@keyframes muncul { 
+  0% { transform: scale(0.88); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.premium-box h2 { margin: 0px 0px 10px; }
+
+.premium-box p { color: rgb(148, 163, 184); line-height: 1.5; }
+
+.plan { width: 100%; height: 55px; margin-top: 10px; background: rgb(6, 182, 212); color: white; font-size: 16px; }
+
+.close { width: 100%; height: 45px; margin-top: 10px; background: rgb(38, 50, 71); color: rgb(203, 213, 225); font-size: 15px; }
+
+#message { min-height: 20px; margin-top: 14px; color: rgb(248, 113, 113); font-size: 14px; font-weight: 600; }
+------MultipartBoundary--5CBeiKDXuRPd1dQTbuMVk9t91M3aA9a7gwaR0mtf6R------
